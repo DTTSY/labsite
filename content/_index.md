@@ -59,7 +59,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Papers
+      title: Publications
       text: ""
       count: 5
       filters:
