@@ -1,7 +1,8 @@
 # IDEs
 .idea/
-
+*go*
 # Hugo
 /resources/
+template/
 public/
 assets/jsconfig.json

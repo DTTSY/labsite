@@ -1,0 +1,52 @@
+@inproceedings{zhang-etal-2024-text-segmentation,
+    title = "From Text Segmentation to Enhanced Representation Learning: A Novel Approach to Multi-Label Classification for Long Texts",
+    author = "Zhang, Wang  and
+      Wang, Xin  and
+      Wang, Qian  and
+      Deng, Tao  and
+      Wu, Xiaoru",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.402/",
+    doi = "10.18653/v1/2024.findings-emnlp.402",
+    pages = "6864--6873",
+    abstract = "Multi-label text classification (MLTC) is an important task in the field of natural language processing. Most existing models rely on high-quality text representations provided by pre-trained language models (PLMs). They hence face the challenge of input length limitation caused by PLMs, when dealing with long texts. In light of this, we introduce a comprehensive approach to multi-label long text classification. We propose a text segmentation algorithm, which guarantees to produce the optimal segmentation, to address the issue of input length limitation caused by PLMs. We incorporate external knowledge, labels' co-occurrence relations, and attention mechanisms in representation learning to enhance both text and label representations. Our method`s effectiveness is validated through extensive experiments on various MLTC datasets, unraveling the intricate correlations between texts and labels."
+}
+
+@inproceedings{10.1145/3627673.3679601,
+author = {Fu, Xun and Xie, Wen-Bo and Chen, Bin and Deng, Tao and Zou, Tian and Wang, Xin},
+title = {ACDM: An Effective and Scalable Active Clustering with Pairwise Constraint},
+year = {2024},
+isbn = {9798400704369},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3627673.3679601},
+doi = {10.1145/3627673.3679601},
+abstract = {Clustering is fundamentally a subjective task: a single dataset can be validly clustered in various ways, and without further information, clustering systems cannot determine the appropriate clustering to perform. This underscores the importance of integrating constraints into clustering, enabling users to convey their preferences to the system. Active constraint-based clustering approaches prioritize the identification of the most valuable constraints to inquire about, striving to achieve effective clustering with the minimal number of constraints needed. We propose an  <u>A</u> ctive  <u>C</u> lustering with  <u>D</u> iffusion  <u>M</u> odel (ACDM). ACDM applies the nearest-neighbor technique to construct a diffusion graph, and utilizes an online framework to refine the clustering result iteratively. In each iteration, (a) nodes with high uncertainty and representativeness are selected in batch mode, (b) then a novel neighborhood-set-based query is used for categorizing the selected nodes, using pairwise constraints, and (c) the categorized nodes are used as source nodes in the diffusion model for cluster refinement. We experimentally demonstrate that ACDM outperforms state-of-the-art methods in terms of clustering quality and scalability.},
+booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+pages = {643–652},
+numpages = {10},
+keywords = {active clustering, knowledge management, pairwise constraints, scalable clustering, semi-supervised clustering},
+location = {Boise, ID, USA},
+series = {CIKM '24}
+}
+
+@article{WANG2024122554,
+title = {Supports estimation via graph sampling},
+journal = {Expert Systems with Applications},
+volume = {240},
+pages = {122554},
+year = {2024},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2023.122554},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417423030567},
+author = {Xin Wang and Jun-Hao Shi and Jie-Jun Zou and Ling-Zhen Shen and Zhuo Lan and Yu Fang and Wen-Bo Xie},
+keywords = {Supports estimation, Graph sampling, Frequent pattern mining, Motifs},
+abstract = {Frequent pattern mining (FPM), whose goal is to identify patterns with appearance frequencies above a specified support threshold on a large graph, has attracted increasing attention owing to its diverse applications. The task suffers from an issue of support setting, as an inappropriate support threshold may lead to either extremely high computational cost along with a huge pattern set or very few patterns caused by excessive pruning. Thus, supports estimation is crucial for FPM, since an appropriate support threshold enables users to discover a limited number of patterns within affordable computational resources. In light of this, we investigate the problem of supports estimation under the constraint of pattern number B and propose a comprehensive approach to the issue. Our approach leverages a neural network to predict the support θB that corresponds to the B-th pattern on a graph G. To train the prediction model, we first present a sampling algorithm that leverages typical motifs to produce sampled graphs of G under different sampling ratios. Owing to the typical structures brought about by motifs, the sampled graphs are embedded supports of the top-ranked patterns in proportion to the sampling ratios. We next develop techniques to efficiently infer the support θB of the B-th pattern on each sampled graph and introduce a method to encode (sampled) graphs with θB and other typical features, thereby forming the training data. Extensive experimental studies on real-life and synthetic graphs demonstrate the superiority of our approach, compared to other baselines.}
+}
